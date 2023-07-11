@@ -15,7 +15,7 @@ const CountryShowPage: React.FC = () => {
   const location = useLocation();
   console.log(location);
   return (
-    <div>CountryShowPage{location.state.country}</div>
+    <div>CountryShowPage{location.state.country} </div>
     // <main>
     //   <button onClick={handleBackClick}>Back</button>
     //   <div>
